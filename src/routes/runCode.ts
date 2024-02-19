@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.post('/compile',compileCode);
 
-router.get('/output/',getResult);
+router.get('/output',getResult);
 
 export default router;
